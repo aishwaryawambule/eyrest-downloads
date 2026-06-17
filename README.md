@@ -29,10 +29,14 @@ one-time "unverified developer" prompt. Here's how to get past it.
    **"Eyrest is damaged and can't be opened."** It isn't damaged — that's just the
    quarantine flag. Clear it in **Terminal**, then open the app:
    ```bash
-   xattr -dr com.apple.quarantine /Applications/Eyrest.app
+   /usr/bin/xattr -dr com.apple.quarantine /Applications/Eyrest.app
    open /Applications/Eyrest.app
    ```
-   (On recent macOS the old "right-click → Open" no longer clears this — use the command above.)
+   Notes:
+   - Use the **full `/usr/bin/xattr` path**. If a Homebrew/Python `xattr` is on your
+     `PATH`, plain `xattr -dr` fails with `option -r not recognized`.
+   - If you get *Permission denied*, prepend `sudo`.
+   - On recent macOS the old "right-click → Open" no longer clears quarantine — use the command above.
 3. Eyrest lives in the **menu bar** (top-right). There's no Dock icon — that's intentional.
 
 ### Windows
