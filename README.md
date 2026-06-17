@@ -25,8 +25,14 @@ one-time "unverified developer" prompt. Here's how to get past it.
 
 ### macOS
 1. Open the `.dmg` and drag **Eyrest** into **Applications**.
-2. First launch: **right-click (Control-click) Eyrest → Open → Open**.
-   (Double-clicking shows a dead-end "can't be opened" dialog; right-click → Open gives you the Open button.)
+2. macOS quarantines downloads from un-notarized apps and may say
+   **"Eyrest is damaged and can't be opened."** It isn't damaged — that's just the
+   quarantine flag. Clear it in **Terminal**, then open the app:
+   ```bash
+   xattr -dr com.apple.quarantine /Applications/Eyrest.app
+   open /Applications/Eyrest.app
+   ```
+   (On recent macOS the old "right-click → Open" no longer clears this — use the command above.)
 3. Eyrest lives in the **menu bar** (top-right). There's no Dock icon — that's intentional.
 
 ### Windows
