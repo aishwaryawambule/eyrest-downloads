@@ -1,0 +1,24 @@
+Copyright (c) 2026 Aishwarya Wambule
+
+All Rights Reserved.
+
+This repository distributes the Eyrest application in compiled, installable
+form. Eyrest, including its source code and these binary distributions, is
+proprietary and confidential software owned by the copyright holder.
+
+You are granted a personal, non-exclusive, non-transferable license to download
+and run the provided installers for their intended purpose. No other rights are
+granted. In particular, without the prior written permission of the copyright
+holder, you may not:
+
+  - copy, redistribute, sell, sublicense, or host the binaries elsewhere;
+  - modify, adapt, translate, or create derivative works; or
+  - reverse engineer, decompile, or disassemble the software, except to the
+    extent such restriction is prohibited by applicable law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
