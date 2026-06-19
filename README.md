@@ -46,9 +46,15 @@ one-time "unverified developer" prompt. Here's how to get past it.
 ### Linux
 - **AppImage:** `chmod +x Eyrest-*.AppImage`, then run it.
 - **Debian/Ubuntu:** `sudo apt install ./Eyrest-*.deb`.
+- Eyrest appears in the **system tray** (usually the top-right panel). On
+  **GNOME** (the Ubuntu default) tray icons are hidden unless an indicator
+  extension is enabled — install **"AppIndicator and KStatusNotifierItem
+  Support"** if you don't see the icon.
 
 ## Using it
 
-Click the tray icon for the menu — **Take a break now**, **Pause**, **Settings…**.
+Eyrest has no main window — it's all on its icon: the **menu bar** on macOS, the
+**system tray** on Windows and Linux. The icon looks and behaves the same on every
+platform. Click it for the menu — **Take a break now**, **Pause**, **Settings…**.
 The icon itself fills like a clock toward your next break; on a break it shows an
 eye, and a pause glyph when paused.
